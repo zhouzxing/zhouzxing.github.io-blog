@@ -1,0 +1,82 @@
+slogan: "Happy Seeker."
+
+theme: cerulean
+inverse: true
+# whether to show h2 and h3 titles in excerpts
+show_title_in_excerpt: false
+
+menu:
+  - title: About
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
+  - title: Projects
+    url: Projects
+    intro: "All the Projects."
+    icon: "fa fa-folder"
+  - title: Fun Stuffs
+    url: Fun-Stuffs
+    intro: "All the records and thinkings of World."
+    icon: "fa fa-folder"
+  - title: Archives
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+
+links:
+  - title: "My Github"
+    url: http://www.github.com/zhouzxing
+    intro: "My Github account."
+    icon: "fa fa-github"
+  # - title: "My LinkedIn"
+  #   url: http://www.linkedin.com/in/hahack
+  #   intro: "My Linkin account."
+  #   icon: "fa fa-linkedin"
+
+widgets:
+- search
+- recent_comments
+- recent_posts
+- links
+#- rss  # uncomment this to show an RSS button in the sidebar
+
+rss: atom.xml
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: #freemindtheme
+
+# Recommended posts
+# Dependency: https://github.com/huiwang/hexo-recommended-posts
+recommended_posts:
+  enabled: false
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: false
+  siteid:
+
+# search
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# share widgets
+bdshare: true
+jiathis: false
+
+# built-in comment system
+# comment_js:
+#   type: "github"
+#   user: "zhouzxing"
+#   repo: "zhouzxing.github.io"
+#   client_id: ""
+#   client_secret: ""
+#   count: 5
+
+# If you want to use gitalk for comments, please uncomment the following, fill in the fields, and comment out the comment_js above.
+comment_gitalk:
+ client_id: ""
+ client_secret: ""
+ user: "zhouzxing"
+ repo: "zhouzxing.github.io"

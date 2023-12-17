@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: geeker by seeker
-language: en
-timezone: ''
+title: 'ISeeker'
+subtitle: 'Seeker'
+description: 'System Programmer: Compiler,OS,DB,Network Protocal...'
+keywords: '系统编程，体系结构，网络协议-web, 底层生态'
+author: 'geeker by seeker'
+language: 'en'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+# url: https://github.com/zhouzxing/zhouzxing.github.io.git
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -61,7 +61,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 8
   order_by: -date
 
 # Category & Tag
@@ -96,12 +96,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
   repo: https://github.com/zhouzxing/zhouzxing.github.io.git
-  branch: master
+  branch: gh-pages
   # message: 
