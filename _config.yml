@@ -11,6 +11,7 @@ author: 'geeker by seeker'
 language: 'en'
 timezone: 'Asia/Shanghai'
 
+root: /blog
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 # url: https://github.com/zhouzxing/zhouzxing.github.io.git
